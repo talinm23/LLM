@@ -8,5 +8,8 @@ python_version: 3.13
 suggested_hardware: cpu-basic
 app_file: indicator_lab/src/main.py
 pinned: false
-license: mit
+app_port: 8501
+tags:
+  - streamlit
+license: apache-2.0
 ---
