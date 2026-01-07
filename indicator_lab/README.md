@@ -4,7 +4,7 @@ emoji: 📈
 colorFrom: indigo
 colorTo: blue
 sdk: streamlit
-app_file: indicator_lab/src/main.py
+app_file: src/main.py
 pinned: false
 license: mit
 ---
