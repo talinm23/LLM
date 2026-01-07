@@ -6,7 +6,7 @@ colorTo: blue
 sdk: streamlit
 python_version: 3.13
 suggested_hardware: cpu-basic
-app_file: indicator_lab/src/main.py
+app_file: src/main.py
 pinned: false
 app_port: 8501
 tags:
