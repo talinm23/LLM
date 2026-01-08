@@ -2,8 +2,8 @@
 #to run: T:\indicator_lab\src>streamlit run main.py
 import os
 from dotenv import load_dotenv
-if os.path.exists('.env'):
-      load_dotenv()
+#if os.path.exists('.env'):
+#      load_dotenv()
 
 import asyncio
 from agents import Agent, Runner, function_tool
