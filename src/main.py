@@ -1,7 +1,7 @@
 
 #to run: T:\indicator_lab\src>streamlit run main.py
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 #if os.path.exists('.env'):
 #      load_dotenv()
 
