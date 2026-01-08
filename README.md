@@ -3,7 +3,7 @@ title: IndicatorLab
 emoji: 📈
 colorFrom: indigo
 colorTo: blue
-sdk: streamlit
+sdk: docker
 python_version: 3.13
 suggested_hardware: cpu-basic
 app_file: src/main.py
