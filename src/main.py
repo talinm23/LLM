@@ -2,9 +2,9 @@
 #to run: T:\indicator_lab\src>streamlit run main.py
 # for agents, run: python -m pip install openai openai-agents python-dotenv
 import os
-#from dotenv import load_dotenv
-#if os.path.exists('.env'):
-#      load_dotenv()
+from dotenv import load_dotenv
+if os.path.exists('.env'):
+      load_dotenv()
 
 import asyncio
 from agents import Agent, Runner, function_tool
