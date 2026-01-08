@@ -1,5 +1,6 @@
 
 #to run: T:\indicator_lab\src>streamlit run main.py
+# for agents, run: python -m pip install openai openai-agents python-dotenv
 import os
 #from dotenv import load_dotenv
 #if os.path.exists('.env'):

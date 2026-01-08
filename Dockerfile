@@ -15,7 +15,7 @@ COPY src/ ./src/
 
 RUN pip3 install .
 
-RUN pip install agents
+RUN python -m pip install openai openai-agents python-dotenv
 
 EXPOSE 8501
 
