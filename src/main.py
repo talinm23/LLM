@@ -47,7 +47,12 @@ async def run_streamlit_app():
     )
 
     st.title("Indicator Agent")
-    st.markdown("Write the two indicators you want to combine!")
+    st.markdown("Welcome!"
+                "\n\nPlease enter the API keys for OpenAI and Alpha Vantage on the left sidebar. "
+                "\n1. You can obtain a free Alpha Vantage API key here: https://www.alphavantage.co/api/keys. "
+                "\n2. Sign up or log in at https://platform.openai.com, navigate to the API Keys section "
+                " and create a new secret key (copy the key immediately as it's only shown once for security)."
+                "\n3. Then, please enter the two indicators you want to combine!")
 
     # Force users to enter their own API key (ignore environment)
     # This ensures the app works as intended for public use
